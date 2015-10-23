@@ -1,0 +1,12 @@
+ctrlp
+easymotion
+emmet
+jellybeans
+jshint2
+lightline
+nerdtree
+snipmate
+syntastic
+tabular
+tlib_vim
+vim-addon-mw-utils
