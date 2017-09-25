@@ -12,8 +12,10 @@ set number
 " Indentation
 set tabstop=2
 set shiftwidth=2
-set softtabstop=2
 set shiftround
+
+" Space indent
+set softtabstop=2
 set expandtab
 
 
@@ -68,6 +70,7 @@ map <Leader> <Plug>(easymotion-prefix)
 map w <Plug>(easymotion-w)
 map b <Plug>(easymotion-b)
 map e <Plug>(easymotion-e)
+map ge <Plug>(easymotion-ge)
 map W <Plug>(easymotion-W)
 map B <Plug>(easymotion-B)
 
@@ -77,3 +80,9 @@ set laststatus=2
 " vimgrep
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 
+" instant markdown
+let g:instant_markdown_autostart = 0
+
+" Fullscreen
+map <silent> <F11>
+      \    :call system("wmctrl -ir " . v:windowid . " -b toggle,fullscreen")<CR>

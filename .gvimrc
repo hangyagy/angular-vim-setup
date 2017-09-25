@@ -1,6 +1,7 @@
 set showtabline=2
 set guioptions-=T
 set guioptions-=m
+set guioptions=""
 
 " #B8CAF5
 let g:jellybeans_overrides = {
