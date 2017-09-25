@@ -10,3 +10,7 @@ https://github.com/scrooloose/syntastic
 https://github.com/godlygeek/tabular
 https://github.com/tomtom/tlib_vim.git
 https://github.com/MarcWeber/vim-addon-mw-utils.git
+https://github.com/kchmck/vim-coffee-script.git
+https://github.com/suan/vim-instant-markdown
+git://github.com/digitaltoad/vim-pug.git
+https://github.com/HerringtonDarkholme/yats.vim
